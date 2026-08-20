@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
 
                 {/* Navigation Links */}
-                <div className="flex justify-center items-center gap-7 sm:gap-10 md:gap-14 mb-8">
+                <div className="flex justify-center items-center gap-6 sm:gap-8 md:gap-12 mb-8">
                     {["Home", "About", "Projects", "Technologies", "Experience"].map((item, i) => (
                         <motion.a
                             key={i}
