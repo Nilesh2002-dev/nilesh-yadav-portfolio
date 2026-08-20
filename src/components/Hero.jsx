@@ -39,11 +39,11 @@ function Hero() {
                         2000,
                         'Asp.Net Developer.',
                         2000,
-                        'Spring Boot.',
-                        2000,
                         'web applications.',
                         2000,
                         'MySql.',
+                        2000,
+                        'Selenium.',
                         2000,
                     ]}
                         wrapper="span"
@@ -64,8 +64,8 @@ function Hero() {
                     </h1>
 
                     <p className="text-lg md:text-xl text-white/90 max-w-2xl mb-6">
-                        Computer Engineering graduate specializing in Java, .NET, and PHP development, with hands-on experience in Spring Boot, ASP.NET Core, Laravel, React.js, and MySQL.
-                        Experienced in developing REST APIs, secure backend systems, database-driven applications, and responsive web applications. Passionate about problem-solving, learning new technologies, and building scalable, efficient, and user-focused software solutions. </p>                 <div className="flex flex-col sm:flex-row gap-4 justify-start sm:justify-center lg:justify-start">
+                        Computer Engineering graduate specializing in Java, .NET, PHP, and Software Testing, with hands-on experience in Spring Boot, ASP.NET Core, Laravel, React.js, MySQL, Selenium, and API testing.
+                        Experienced in developing REST APIs, secure backend systems, database-driven applications, responsive web applications, and software testing workflows. Passionate about problem-solving, learning new technologies, identifying defects, and building scalable, efficient, reliable, and user-focused software solutions. </p>                 <div className="flex flex-col sm:flex-row gap-4 justify-start sm:justify-center lg:justify-start">
                         <motion.a
                             href="#About1"
                             whileHover={{ scale: 1.05 }}

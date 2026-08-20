@@ -68,13 +68,15 @@ export default function About() {
             I'm{" "}
             <span className="text-[#7d8bf7] pulse-glow font-semibold">Nilesh Yadav</span>,
               <p>
-                Software Engineer with strong <strong>backend</strong> expertise, skilled in
-                <strong> Java</strong>, <strong>Spring Boot</strong>, <strong>.NET</strong>,
-                <strong> REST APIs</strong>, and <strong>SQL</strong>, with hands-on experience
-                building scalable web applications using{" "}
-                <strong>ASP.NET Core</strong>, <strong>React</strong>, and{" "}
-                <strong>Spring Boot</strong>.
-              </p>
+              Software Engineer with strong <strong>backend</strong> expertise, skilled in
+              <strong> Java</strong>, <strong>Spring Boot</strong>, <strong>.NET</strong>,
+              <strong> REST APIs</strong>, and <strong>SQL</strong>, with hands-on experience
+              building scalable web applications using <strong>ASP.NET Core</strong>,
+              <strong>React</strong>, and <strong>Spring Boot</strong>. Also experienced in
+              <strong> Software Testing</strong>, <strong>Selenium</strong>, and
+              <strong> API Testing</strong>, with a focus on building reliable,
+              high-quality, and user-focused applications.
+            </p>
           </p>
           <p className="text-white/80 mb-6">
             🚀 Building scalable web applications with Java, .NET, PHP, Spring Boot, ASP.NET Core, Laravel, React, and SQL, 

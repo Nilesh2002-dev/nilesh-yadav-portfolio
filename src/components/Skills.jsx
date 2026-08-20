@@ -5,7 +5,7 @@ import {
 } from 'react-icons/di';
 import {
    SiSpringboot, 
-  SiTailwindcss,  SiPostman, SiLaravel, SiDotnet, SiMysql
+  SiTailwindcss,  SiPostman, SiLaravel, SiDotnet, SiMysql,SiSelenium
 } from 'react-icons/si';
 import { FaPhp } from "react-icons/fa";
 import SnowParticles from './SnowParticle';
@@ -57,6 +57,10 @@ const skills = [
   {
     name: 'Postman',
     icon: <SiPostman className="text-3xl sm:text-6xl text-[#FF6C37]" />,
+  },
+  {
+  name: 'Selenium',
+  icon: <SiSelenium className="text-3xl sm:text-7xl" />,
   },
 
   
