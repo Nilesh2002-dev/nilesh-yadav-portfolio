@@ -37,13 +37,13 @@ function Hero() {
                     sequence={[
                         'Java Full Stack Developer.',
                         2000,
-                        'Asp.Net Developer',
+                        'Asp.Net Developer.',
                         2000,
-                        'Spring Boot',
+                        'Spring Boot.',
                         2000,
                         'web applications.',
                         2000,
-                        'MySql',
+                        'MySql.',
                         2000,
                     ]}
                         wrapper="span"

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../assets/Logo.png";
 
-const navItems = ["Home", "Projects", "Technologies", "About", "Contact"];
+const navItems = ["Home", "Projects", "Technologies", "Experience", "About", "Contact"];
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);

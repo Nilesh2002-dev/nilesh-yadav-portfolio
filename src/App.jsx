@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Seperation from './components/Seperation'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Experience from "./components/Experience";
 import Particle from './components/Particle.jsx'
 import SnowParticles from './components/SnowParticle.jsx'
 import GithubStats from './components/GithubStats.jsx'
@@ -18,20 +19,28 @@ function App() {
   <CustomCursor />
       <Header />
       <SmoothScroll>
+
         <section id='Home'>
           {/* <Particle /> */}
           <Hero />
         </section>
+
         {/* <Seperation /> */}
         <section id='Technologies'>
           <Skills />
         </section>
+
         {/* <Seperation /> */}
-        <section id='Projects'>
+        <section id="Projects" className="relative">
           <SnowParticles />
           <Projects />
         </section>
-       
+
+        {/* <Seperation /> */}
+        <section id="Experience" className="relative z-10">
+          <Experience />
+        </section>
+
         {/* <section id='Coding Stats'>
         <SnowParticles />
           <GithubStats/>

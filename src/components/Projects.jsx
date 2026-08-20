@@ -45,7 +45,9 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section id="Projects" className="bg-gradient-to-br from-[#0A2647] via-[#144272] to-[#205295] text-white px-6 py-24 min-h-screen">
+        <section
+            className="relative bg-gradient-to-br from-[#0A2647] via-[#144272] to-[#205295] text-white px-6 py-24 min-h-screen"
+        > 
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

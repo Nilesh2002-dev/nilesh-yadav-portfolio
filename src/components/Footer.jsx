@@ -33,13 +33,13 @@ export default function Footer() {
                 </div>
 
                 {/* Navigation Links */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center mb-8">
-                    {["Home", "About", "Projects", "Technologies"].map((item, i) => (
+                <div className="flex justify-center items-center gap-7 sm:gap-10 md:gap-14 mb-8">
+                    {["Home", "About", "Projects", "Technologies", "Experience"].map((item, i) => (
                         <motion.a
                             key={i}
                             href={`#${item}`}
                             whileHover={{ scale: 1.1, y: -2 }}
-                            className="text-white/90 text-lg font-medium hover:text-[#00c6ff] transition duration-300"
+                            className="text-white/90 text-sm sm:text-lg font-medium hover:text-[#00c6ff] transition duration-300 whitespace-nowrap"
                         >
                             {item}
                         </motion.a>
