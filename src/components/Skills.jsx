@@ -1,13 +1,13 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import {
-  DiMongodb, DiNodejs, DiPython, DiJava, DiReact
+   DiJava, DiReact
 } from 'react-icons/di';
 import {
-  SiExpress, SiCplusplus, SiSpringboot, SiNextdotjs,
-  SiTailwindcss, SiC, SiAppwrite, SiClerk, SiTensorflow, SiPostman, SiPytorch
+   SiSpringboot, 
+  SiTailwindcss,  SiPostman, SiLaravel, SiDotnet, SiMysql
 } from 'react-icons/si';
-import { BiData } from 'react-icons/bi';
+import { FaPhp } from "react-icons/fa";
 import SnowParticles from './SnowParticle';
 const skills = [
   { 
@@ -15,37 +15,50 @@ const skills = [
   { name: 'CSS', icon: <i className="devicon-css3-plain colored text-3xl sm:text-7xl" /> },
   { name: 'JavaScript', icon: <i className="devicon-javascript-plain colored text-3xl sm:text-7xl" /> },
   {
-    name: 'GitHub',
-    icon: <i className="devicon-github-original colored text-3xl sm:text-7xl" />,
-  },
-  {
-    name: 'React',
-    icon: <DiReact className="text-3xl sm:text-6xl text-[#61DAFB]" />,
-  },
-  {
-    name: 'Postman',
-    icon: <SiPostman className="text-3xl sm:text-6xl text-[#FF6C37]" />,
-  },
-  {
     name: 'Java',
     icon: <DiJava className="text-3xl sm:text-6xl text-[#ED8B00]" />,
-  },
-  {
-    name: 'Python',
-    icon: <DiPython className="text-3xl sm:text-6xl text-[#3776AB]" />,
   },
   {
     name: 'Spring Boot',
     icon: <SiSpringboot className="text-3xl sm:text-6xl text-[#6DB33F]" />,
   },
   {
+  name: 'PHP',
+  icon: <FaPhp className="text-3xl sm:text-6xl text-[#777BB4]" />,
+  },
+  {
+  name: 'Laravel',
+  icon: <SiLaravel className="text-3xl sm:text-6xl text-[#FF2D20]" />,
+  },
+  {
+    name: '.NET',
+    icon: <SiDotnet className="text-3xl sm:text-6xl text-[#512BD4]" />,
+  },
+  {
+  name: 'ASP.NET Core',
+  icon: <SiDotnet className="text-3xl sm:text-6xl text-[#512BD4]" />,
+  },
+  {
+    name: 'React',
+    icon: <DiReact className="text-3xl sm:text-6xl text-[#61DAFB]" />,
+  },
+  {
+  name: 'MySQL',
+  icon: <SiMysql className="text-3xl sm:text-6xl text-[#4479A1]" />,
+  },
+  {
+    name: 'GitHub',
+    icon: <i className="devicon-github-original colored text-3xl sm:text-7xl" />,
+  },
+  {
     name: 'Tailwind',
     icon: <SiTailwindcss className="text-3xl sm:text-6xl text-[#38BDF8]" />,
   },
   {
-    name: 'SQL',
-    icon: <BiData className="text-3xl sm:text-6xl text-[#00758F]" />,
+    name: 'Postman',
+    icon: <SiPostman className="text-3xl sm:text-6xl text-[#FF6C37]" />,
   },
+
   
 ];
 

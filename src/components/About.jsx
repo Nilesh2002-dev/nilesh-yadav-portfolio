@@ -77,9 +77,9 @@ export default function About() {
               </p>
           </p>
           <p className="text-white/80 mb-6">
-            🚀 Building scalable applications with Java, Spring Boot, React, and SQL, 
-            combining strong backend engineering with modern frontend development to create reliable, 
-            high-performance full-stack solutions.
+            🚀 Building scalable web applications with Java, .NET, PHP, Spring Boot, ASP.NET Core, Laravel, React, and SQL, 
+              combining strong backend engineering with modern frontend development to create secure, 
+              reliable, and high-performance full-stack solutions.
           </p>
 
         <hr className="my-6 border-[#4a55c7]/20" />

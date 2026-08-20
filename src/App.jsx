@@ -32,10 +32,10 @@ function App() {
           <Projects />
         </section>
        
-        <section id='Coding Stats'>
+        {/* <section id='Coding Stats'>
         <SnowParticles />
           <GithubStats/>
-        </section>
+        </section> */}
     
         <section id='About'>
           <About />
