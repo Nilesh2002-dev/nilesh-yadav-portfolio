@@ -57,7 +57,7 @@ const Experience = () => {
 
               {/* Job Title */}
               <h3 className="text-2xl sm:text-3xl font-bold">
-                Software Engineer Intern
+                Application Support Intern
               </h3>
 
               {/* Company */}
