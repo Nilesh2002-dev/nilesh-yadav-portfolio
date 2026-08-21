@@ -1,8 +1,8 @@
-# 🌐 Mrishika Dhinakaran — Personal Developer Portfolio
+# 🌐 Nilesh yadav — Personal Developer Portfolio
 
 This is my official developer portfolio website built using modern frontend tools like **React**, **Tailwind CSS**, and **Framer Motion**. It highlights my projects, skills, and contact details — a digital home for everything I do as a developer.
 
-> 🔴 Live at: mrishikadhinakaran](https://mrishikadhinakaran.vercel.app/)
+> 🔴 Live at: nileshyadav](https://nilesh-yadav-portfolio-x9fs.vercel.app/)
 
 ---
 
@@ -21,7 +21,7 @@ This is my official developer portfolio website built using modern frontend tool
 ## 📁 Folder Structure
 
 ```bash
-MrishikaDhinakaran/
+NileshYadav/
 ├── .vscode/               # Editor configs
 ├── .vercel/               # Vercel deployment configs
 ├── dist/                  # Production build (auto-generated)
@@ -44,8 +44,8 @@ MrishikaDhinakaran/
 
 ```bash
 # Clone the repo
-git clone https://github.com/mrishikadhinakaran/MrishikaDhinakaran.git
-cd MrishikaDhinakaran
+git clone https:
+cd nileshyadav
 
 # Install dependencies
 npm install
